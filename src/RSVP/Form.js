@@ -34,7 +34,7 @@ export default function Form({ formal, isAttending }) {
       <Radio
         name="attending"
         formal={formal}
-        titles={{ yes: 'I will be attending!', no: 'I will not be attending' }}
+        titles={{ yes: 'Claro que iré!', no: 'No podré asistir :c' }}
       />
 
       <animated.div
@@ -55,15 +55,15 @@ export default function Form({ formal, isAttending }) {
               : 'position: absolute; top: 0; pointer-events: none;'};
           `}
         >
-          <Field name="food" title="Food preferences" formal={formal} />
+          <Field name="food" title="Preferencia en alcohol" formal={formal} />
           <Radio
             name="alcohol"
             formal={formal}
-            titles={{ yes: 'I want alcohol!', no: 'No alcohol for me' }}
+            titles={{ yes: 'Quiero tomar!', no: 'Sin alcohol para mi!' }}
           />
         </animated.div>
       </animated.div>
-      <Field name="extra" title="Extra information" formal={formal} />
+      <Field name="extra" title="Especificaciones extras?" formal={formal} />
     </div>
   );
 }
