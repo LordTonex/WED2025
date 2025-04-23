@@ -19,8 +19,8 @@ const confettiColors = Object.values(theme.colors);
 
 setLocale({
   mixed: {
-    notType: 'Please select one of the options',
-    required: 'Please fill out this field.',
+    notType: 'Seleccione una opción',
+    required: 'Favor de llenar esta información',
   },
 });
 
@@ -93,16 +93,16 @@ export default function RSVP() {
     },
   });
 
-  let buttonText = 'Sign me up baby!';
+  let buttonText = 'QUIERO RESERVAR';
   if (formal.isDirty && !isAttending) {
-    buttonText = 'See you another time?';
+    buttonText = 'Nos vemos pronto?';
   }
 
   if (hasRSVPed) {
     if (isAttending) {
-      buttonText = 'See who else is attending!';
+      buttonText = 'Mira quien mas irá!';
     } else {
-      buttonText = 'Wanna see who is attending?';
+      buttonText = 'Lista de invitados confirmados';
     }
   }
 
@@ -128,8 +128,7 @@ export default function RSVP() {
           margin-block-start: 0;
         `}
       >
-        <i>Répondez s'il vous plaît</i>, meaning "please respond". Last date to
-        respond is <b>28th of August</b>.
+        <i>Fecha maxima para aceptar la invitacion es el <b>30 de Junio</b>.
       </p> 
       <form
         method="post"
