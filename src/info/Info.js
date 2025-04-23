@@ -29,43 +29,31 @@ export default function Info() {
 
       <HostToast />
 
-      <Card title="Gifts">
+      <Card title="Regalos">
         <div>
           <p>
-            If you would like to give a gift then we would appreciate a
-            contribution to our honeymoon as we don't need any more stuff.
+            Si desea ofrecer un regalo aceptamos con mucho cariño
+            contribuciones a nuestra luna de miel!.
           </p>
 
           <p>
-            To contribute to our honeymoon either:
+            Para contribuir a la Luna de Miel puede:
             <ul>
               <li>
-                Send a Swish to 073 717 84 28 (belonging to Gustav Marin) and in
-                the comment add your name and optionally if you want it go to
-                something specific.
-              </li>
-              <li>
-                Or if you don't have Swish send{' '}
+                Mandar un correo a {' '}
                 <a
                   css={({ colors }) => css`
                     color: ${colors.darkGreen.string()};
                     font-weight: bold;
                     margin-top: 4px;
                   `}
-                  href="mailto:hosts@lisamartin.wedding"
+                  href="mailto:bustillos.bb97@gmail.com"
                 >
-                  Gustav & Matilda
+                  Recepcion de Regalos
                 </a>{' '}
-                an email and they can help you out!
+                Donde se les puede dar instrucciones especificas!
               </li>
             </ul>
-          </p>
-
-          <p>
-            We are going to Piemonte in northern Italy to eat white truffle,
-            drink wine and enjoy the nature. Later we are going down do Cinque
-            Terre to hike and swim in the ocean and our last days will be spent
-            in Florence.
           </p>
 
           <p>Here are some of things you can dedicate your gift to.</p>
@@ -80,41 +68,10 @@ export default function Info() {
               }
             `}
           >
-            <li>
-              <Emoji emoji="🚴‍♀" label="bike" /> Renting better bikes in
-              Piemonte
-            </li>
-            <li>
-              <Emoji emoji="🍷" label="wine" /> More wines to taste
-            </li>
-            <li>
-              <Emoji emoji="🍇" label="grape" /> More luxurious vineyard to
-              spend the night at
-            </li>
-            <li>
-              <Emoji emoji="🍄" label="truffle" /> Truffles, truffles and more
-              truffles
-            </li>
-            <li>
-              <Emoji emoji="🏩" label="hotel" /> Luxury hotel night in Cinque
-              Terre…
-            </li>
-            <li>
-              <Emoji emoji="🍾" label="wine bottle" /> More dessert wine in Asti
-            </li>
-            <li>
-              <Emoji emoji="🌱" label="plant" /> Climate compensation for our
-              flight
-            </li>
-            <li>
-              <Emoji emoji="🧞‍♂️" label="genius" /> Or something else you think we
-              should do!
-            </li>
-          </ul>
         </div>
       </Card>
 
-      <Card title="Dress code">
+      <Card title="Codigo de Vestimenta">
         <div
           css={css`
             display: grid;
@@ -164,13 +121,11 @@ export default function Info() {
             `}
           >
             <p>
-              The formal dress code is evening suit, in Sweden called{' '}
-              <i>"mörk kostym"</i>.
+              Vestimenta formal, pero incluyan zapatos para bailar!
             </p>
             <p>
-              Not feeling like wearing what the formal dress code dictates?
-              That's all good, as long as you feel you look good you can come in
-              whatever you like!
+              ¿No puedes vestirte formal o no te sientes cómodo/cómoda?
+              No pasa nada!, lo importante es verte para nuestro gran dia!
             </p>
           </div>
         </div>
