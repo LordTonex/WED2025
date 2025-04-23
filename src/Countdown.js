@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useInterval } from './hooks';
 import { animated } from 'react-spring';
 
-const countdownTo = DateTime.local(2025, 6, 7, 18);
+const countdownTo = DateTime.local(2025, 7, 6, 18);
 
 const getTimer = now => {
   const { days, hours, minutes, seconds } = countdownTo
@@ -36,7 +36,7 @@ export default function Countdown({ style }) {
         font-size: 0.7em;
       `}
     >
-      in {timer.map(item => `${item.time} ${item.unit}`)}
+      Empieza en: {timer.map(item => `${item.time} ${item.unit}`)}
     </animated.div>
   );
 }
