@@ -2,3 +2,7 @@
   command = "yarn run build:production"
   publish = "build"
   functions = "lambda"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NODE_OPTIONS = "--openssl-legacy-provider"
