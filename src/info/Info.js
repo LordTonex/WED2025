@@ -11,12 +11,6 @@ export default function Info() {
   const isPhone = usePhoneQuery();
   const imageSize = isPhone ? 120 : 180;
 
-  const Emoji = ({ emoji, label }) => (
-    <span role="img" aria-label={label}>
-      {emoji}
-    </span>
-  );
-
   return (
     <div
       css={css`
