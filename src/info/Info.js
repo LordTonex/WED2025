@@ -1,5 +1,6 @@
-/** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
+/** @jsx jsx */
+import { jsx } from '@emotion/core';
+import css from '@emotion/css/macro';
 import Day from './Day';
 import HostToast from './HostToast';
 import Card from './Card';
