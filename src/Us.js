@@ -86,7 +86,7 @@ export default function Us() {
                   margin: 0;
                 `}
               >
-                Saturday September 28th, 2019
+                'Miércoles 07 de junio 2025'
               </p>
             </animated.div>
           </div>
