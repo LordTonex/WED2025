@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useInterval } from './hooks';
 import { animated } from 'react-spring';
 
-const countdownTo = DateTime.local(2019, 9, 28, 16);
+const countdownTo = DateTime.local(2025, 6, 7, 18);
 
 const getTimer = now => {
   const { days, hours, minutes, seconds } = countdownTo
@@ -15,10 +15,10 @@ const getTimer = now => {
     .toObject();
 
   return [
-    { time: days, unit: 'days ' },
-    { time: hours, unit: 'hours ' },
-    { time: minutes, unit: 'minutes ' },
-    { time: Math.floor(seconds), unit: 'seconds' },
+    { time: days, unit: 'Dias ' },
+    { time: hours, unit: 'Horas ' },
+    { time: minutes, unit: 'Minutos ' },
+    { time: Math.floor(seconds), unit: 'Segundos' },
   ];
 };
 
