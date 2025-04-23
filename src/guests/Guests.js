@@ -61,7 +61,7 @@ export default function Guests() {
           margin-left: 1rem;
         `}
       >
-        Guests
+        LISTA DE INVITADOS
       </h1>
 
       <div
