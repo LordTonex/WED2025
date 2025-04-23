@@ -50,7 +50,7 @@ export default function Frontpage() {
           word-spacing: 100vw;
         `}
       >
-        We are getting married
+        NOS VAMOS A CASAR
       </animated.h1>
       <Countdown style={countdownSpring} />
     </div>
