@@ -47,7 +47,7 @@ export default function Name({ formal }) {
           <div>
             <Field
               name="name"
-              title="Name"
+              title="Nombre & Apellido"
               inputProps={getInputProps()}
               value={inputValue}
               error={false}
@@ -117,7 +117,7 @@ function GuestSuggestions({
           padding: 0.5rem;
         `}
       >
-        There are no guests by that name...
+        Invitado no encontrado, si cree que es un error favor de contactar al organizador...
       </div>
     );
   }
